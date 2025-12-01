@@ -6,7 +6,7 @@
     <a href="https://github.com/jckling/Daily-Bonus/issues"><img src="https://img.shields.io/github/issues/jckling/Daily-Bonus" alt="GitHub issues"></a>
 </p>
 
-使用 Github Action 签到，用哪个就配置相应的环境变量，默认输出到控制台，支持 Telegram 消息推送。。
+使用 Github Action 签到，用哪个就配置相应的环境变量，默认输出到控制台，支持 Telegram 消息推送。
 
 ## 说明
 
@@ -134,4 +134,5 @@ FF14 积分商城使用账号和密码登录
 - [Workflow commands for GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions)
 - [niuhuan/pica-go](https://github.com/niuhuan/pica-go)
 - [Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin)
+
 
