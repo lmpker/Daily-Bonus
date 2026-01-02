@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: '30 23 * * *'
+  workflow_dispatch: # 添加这一行，开启手动触发
 
 jobs:
   checkin:
@@ -50,5 +51,6 @@ jobs:
 
       - name: Check-in
         run: python ./message.py
+
 
 
