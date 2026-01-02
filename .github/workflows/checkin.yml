@@ -2,6 +2,7 @@ name: Daily Bonus
 
 on:
   push:
+    workflow_dispatch: # 开启手动触发
     branches:
       - master
   schedule:
@@ -50,3 +51,4 @@ jobs:
 
       - name: Check-in
         run: python ./message.py
+
